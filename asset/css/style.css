@@ -1,0 +1,207 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  background: #54B435;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.container{
+  position: relative;
+  width: 75vw;
+  height: 100vh;
+}
+
+#home {
+  display: flex;
+  width: 100%;
+  flex-direction: column; 
+  position: fixed;
+}
+
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 141px;
+}
+.navigasi img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+.menu {
+  margin-right: 50px;
+  font-size: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+.home-menu {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #E28920;
+  
+}
+.profile-menu {
+  margin-right: 20px;
+    color: white;
+}
+.guru-menu {
+  margin-right: 20px;
+    color: white;
+}
+.siswa-menu {
+  margin-right: 20px;
+    color: white;
+}
+.informasi-menu {
+  margin-right: 20px;
+    color: white;
+}
+.galeri-menu {
+    color: white;
+}
+/* //////////////////////// */
+.sliders{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  
+
+}
+.slider img{
+  width: 100vw;
+  height:100vh;
+  animation: blink 3s linear;
+
+}
+
+.filter{
+  background: rgba(7, 78, 0, 0.486);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+.ucapan{
+
+  z-index: 999;
+  color: white;
+  margin-left: 100px
+}
+.wellcome{
+  font-size: 30px;
+  font-weight:normal;
+  margin-bottom: -40px;
+}
+.sekolah{
+  font-size: 40px;
+  font-weight: bold;
+}
+.btn-ucapan{
+  font-size: 30px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #E3E3E3;
+  border-radius: 5px;
+}
+.btn-ucapan:hover{
+  cursor: pointer;
+  background: #ffffff;
+  padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.2s;
+}
+/* //////////////////////////// */
+#profil{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+
+#profil img{
+  width: 250px;
+  height: 400px;
+
+}
+.wrapp{
+  display: flex;
+  align-items: center;
+}
+.biodata{
+  color: white;
+}
+.nama{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bagian{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+.desk{
+  color: white;
+  width: 400px;
+  text-align: justify;
+}
+
+#guru{
+  position: absolute;
+  width: 100vw;
+  height: 300vh;
+  top: 200vh;
+  z-index: -1;
+}
+.card img{
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+.card{
+  display: flex;
+  align-items: flex-end;
+  
+}
+.kiri{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.kanan{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row-reverse;
+  margin-right: 200px;
+}

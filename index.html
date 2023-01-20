@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="asset/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="asset/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="asset/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 400)" href="mobile_styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="nav">
+            <div class="navigasi">
+                <img src="./asset/images/LOGO.png" alt="" />
+                <div class="menu">
+                    <a href="#home" class="home-menu" onclick="klikHome()">Home</a>
+                    <a href="#profil" class="profile-menu" onclick="klikProfil()">Profil Sekolah</a>
+                    <a href="#guru" class="guru-menu" onclick="klikGuru()">Guru</a>
+                    <a href="#mapel" class="mapel-menu" onclick="klikMapel()">Mata Pelajaran</a>
+                    <a href="#" class="informasi-menu" onclick="klikInformasi()">Informasi</a>
+                    <a href="#" class="galeri-menu" onclick="klikGaleri()">Galeri</a>
+                </div>
+            </div>
+        </nav>
+        <div id="home">
+            <div class="sliders">
+                <div class="slider">
+                    <img src="./asset/images/foto1.png" alt="">
+                </div>
+                <div class="slider">
+                    <img src="./asset/images/foto2.png" alt="">
+                </div>
+                <div class="slider">
+                    <img src="./asset/images/foto3.png" alt="">
+                </div>
+                <div class="slider">
+                    <img src="./asset/images/foto4.png" alt="">
+                </div>
+                <div class="slider">
+                    <img src="./asset/images/kopi.jpg" alt="">
+                </div>
+            </div>
+            <div class="filter">
+                <div class="ucapan">
+                    <p class="text wellcome">Selamat Datang</p>
+                    <p class="text sekolah">DI AL-FUTUHIYYAH</p>
+                    <a href="" class="btn-ucapan">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+        <div id="profil">
+            <h1>Profile Sekolah</h1>
+            <div class="wrapp">
+                <div class="pendiri" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true">
+                    <img src="./asset/images/pendiri.png" alt="">
+                    <div class="biodata">
+                        <p class="nama">Ade Yusman Kurniawan S.Pd</p>
+                        <p class="status">Pendiri</p>
+                    </div>
+                </div>
+                <div class="desk" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true">
+                    <p class="desk-sekolah atas">Taman Kanak-kanak Al-Qur’an (TKA) adalah lembaga pendidikan dan
+                        pengajaran Al-Qur’anuntuk anak usia TK (4-7 tahun), sedangkan Taman Pendidikan Al-Qur’an (TPA)
+                        adalah lembaga pendidikan dan pengajaran Al-Qur’an untuk anak usia SD (7 -12 tahun).</p>
+                    <p class="desk-sekolah bawah">Jl. H. Sarmah Rt.02/07 Kel. Parigi Lama Kec. Pondok Aren Kota
+                        Tangerang Selatan</p>
+
+                </div>
+                <div class="desk" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true">
+                    <h1>Visi</h1>
+                    <p class="desk-sekolah atas">Terwujudnya Generasi Islam Yang cerdas, kreatif, mandiri dan berahlak
+                    </p>
+
+                </div>
+                <div class="desk" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true">
+                    <h1>Misi</h1>
+                    <p class="desk-sekolah atas">
+                    <ul>
+                        <li>Menyelenggarakan pendidikan yang berkualitas dalam pencapaian prestasi akademik dan non
+                            akademik</li>
+                        <li>Mewujudkan pembelajaran dan pembiasaan dalam mempelajari Alqur’an dan menjalankan ajaran
+                            agama Islam.</li>
+                        <li>Mewujudkan pembentukan karakter Islami yang mampu mengaktualisasikan diri dalam masyarakat.
+                        </li>
+                        <li>Menyelenggarakan tata kelola TPQ yang efektif, efisien, transparan dan akuntabel</li>
+                    </ul>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div id="guru">
+            <h1>Guru</h1>
+            <div class="card kiri" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true">
+                <img src="./asset/images/guru.png" alt="">
+                <div class="bio1">
+                    <p class="nama">Umi sriyani</p>
+                    <p class="bagian">Guru Tahsin</p>
+                </div>
+            </div>
+            <div class="card kanan" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true">
+                <img src="./asset/images/pendiri.png" alt="">
+                <div class="bio2">
+                    <p class="nama">Ust. Ramli S.Pd.I</p>
+                    <p class="bagian">Guru Bahasa Arab</p>
+                </div>
+            </div>
+            <div class="card kiri" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true">
+                <img src="./asset/images/pendiri.png" alt="">
+                <div class="bio1">
+                    <p class="nama">Ust. Aan</p>
+                    <p class="bagian">Guru hadroh</p>
+                </div>
+            </div>
+            <div class="card kanan" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true">
+                <img src="./asset/images/pendiri.png" alt="">
+                <div class="bio2">
+                    <p class="nama">Ust. Subandi S.Th.I</p>
+                    <p class="bagian">Guru</p>
+                </div>
+            </div>
+        </div>
+        <div id="mapel">
+            <h1>Mata Pelajaran</h1>
+            <div class="bungkus">
+                <div class="kotak">
+                    <p>Pagi</p>
+                    <div class="jadwal">
+                        <ul class="pelajaran">
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                        <ul class="jam">
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kotak">
+                    <p>Siang</p>
+                    <div class="jadwal">
+                        <ul class="pelajaran">
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                        <ul class="jam">
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kotak">
+                    <p>Sore</p>
+                    <div class="jadwal">
+                        <ul class="pelajaran">
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                        <ul class="jam">
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kotak">
+                    <p>Malam</p>
+                    <div class="jadwal">
+                        <ul class="pelajaran">
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                        <ul class="jam">
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                            <li>20 : 10</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="panah" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true"><a href="#home"><i
+                    class="fa-solid fa-chevron-up"></i></a></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const home = document.querySelector(".home-menu")
+        const profil = document.querySelector(".profile-menu")
+        const guru = document.querySelector(".guru-menu")
+        const mapel = document.querySelector(".mapel-menu")
+        const informasi = document.querySelector(".informasi-menu")
+        const galeri = document.querySelector(".galeri-menu")
+        AOS.init();
+        function klikHome() {
+            home.style.color = "#E28920"
+            profil.style.color = "#ffffff"
+            guru.style.color = "#ffffff"
+            mapel.style.color = "#ffffff"
+            informasi.style.color = "#ffffff"
+            galeri.style.color = "#ffffff"
+            home.style.fontWeight = "Bold"
+            profil.style.fontWeight = "400"
+            guru.style.fontWeight = "400"
+            mapel.style.fontWeight = "400"
+            informasi.style.fontWeight = "400"
+            galeri.style.fontWeight = "400"
+
+        }
+        function klikProfil() {
+            home.style.color = "#ffffff"
+            profil.style.color = "#E28920"
+            guru.style.color = "#ffffff"
+            mapel.style.color = "#ffffff"
+            informasi.style.color = "#ffffff"
+            galeri.style.color = "#ffffff"
+            home.style.fontWeight = "400"
+            profil.style.fontWeight = "bold"
+            guru.style.fontWeight = "400"
+            mapel.style.fontWeight = "400"
+            informasi.style.fontWeight = "400"
+            galeri.style.fontWeight = "400"
+        }
+        function klikGuru() {
+            home.style.color = "#ffffff"
+            profil.style.color = "#ffffff"
+            guru.style.color = "#E28920"
+            mapel.style.color = "#ffffff"
+            informasi.style.color = "#ffffff"
+            galeri.style.color = "#ffffff"
+            home.style.fontWeight = "400"
+            profil.style.fontWeight = "400"
+            guru.style.fontWeight = "bold"
+            mapel.style.fontWeight = "400"
+            informasi.style.fontWeight = "400"
+            galeri.style.fontWeight = "400"
+        }
+        function klikMapel() {
+            home.style.color = "#ffffff"
+            profil.style.color = "#ffffff"
+            guru.style.color = "#ffffff"
+            mapel.style.color = "#E28920"
+            informasi.style.color = "#ffffff"
+            galeri.style.color = "#ffffff"
+            home.style.fontWeight = "400"
+            profil.style.fontWeight = "400"
+            guru.style.fontWeight = "400"
+            mapel.style.fontWeight = "bold"
+            informasi.style.fontWeight = "400"
+            galeri.style.fontWeight = "400"
+        }
+        function klikInformasi() {
+            home.style.color = "#ffffff"
+            profil.style.color = "#ffffff"
+            guru.style.color = "#ffffff"
+            mapel.style.color = "#ffffff"
+            informasi.style.color = "#E28920"
+            galeri.style.color = "#ffffff"
+            home.style.fontWeight = "400"
+            profil.style.fontWeight = "400"
+            guru.style.fontWeight = "400"
+            mapel.style.fontWeight = "400"
+            informasi.style.fontWeight = "bold"
+            galeri.style.fontWeight = "400"
+        }
+        function klikGaleri() {
+            home.style.color = "#ffffff"
+            profil.style.color = "#ffffff"
+            guru.style.color = "#ffffff"
+            mapel.style.color = "#ffffff"
+            informasi.style.color = "#ffffff"
+            galeri.style.color = "#E28920"
+            home.style.fontWeight = "400"
+            profil.style.fontWeight = "400"
+            guru.style.fontWeight = "400"
+            mapel.style.fontWeight = "400"
+            informasi.style.fontWeight = "400"
+            galeri.style.fontWeight = "bold"
+        }
+
+    </script>
+</body>
+
+</html>
