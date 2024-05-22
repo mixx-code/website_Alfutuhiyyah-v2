@@ -379,11 +379,11 @@ a {
     font-weight: bold;
 }
 
-li {
+.kotak li {
     list-style-type: none;
 }
 
-ul {
+.kotak ul {
     list-style-type: none;
     margin-left: -15px;
 }
